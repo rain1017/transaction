@@ -1,16 +1,15 @@
 # transaction
 
-Transaction support for in memory plain objects (Beta version)
+Transaction support for in memory objects (Beta)
 
 [![Build Status](https://travis-ci.org/rain1017/transaction.svg?branch=master)](https://travis-ci.org/rain1017/transaction)
 [![Dependencies Status](https://david-dm.org/rain1017/transaction.svg)](https://david-dm.org/rain1017/transaction)
 
 ## Get Started
 
-Transaction support for in memory plain objects
+Transaction support for in memory objects, for robustness and performance both
 Lock/Commit/Rollback in memory objects just like access data in traditional database
 
-For robustness and performance both
 
 ```
 var T = require('transaction');
