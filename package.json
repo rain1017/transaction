@@ -1,7 +1,7 @@
 {
 	"name": "transaction",
-	"description": "",
-	"version": "0.0.1",
+	"description": "transaction support for in memory objects (beta)",
+	"version": "0.0.2",
 	"author": "rain1017",
 	"private" : false,
 	"homepage" : "https://github.com/rain1017/transaction",
@@ -31,7 +31,7 @@
 		"q": "~1.1.2",
 		"deepcopy": "~0.4.0",
 		"async-lock": "~0.1.2",
-		"lodash": "~2.4.1"
+		"lodash": "~3.2.0"
 	},
 	"devDependencies": {
 		"should": "~4.5.0",
