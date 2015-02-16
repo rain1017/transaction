@@ -1,0 +1,47 @@
+{
+	"name": "transaction",
+	"description": "",
+	"version": "0.0.1",
+	"author": "rain1017",
+	"private" : false,
+	"homepage" : "https://github.com/rain1017/transaction",
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/rain1017/transaction.git"
+	},
+	"bugs" : {
+		"url" : "https://github.com/rain1017/transaction/issues"
+	},
+	"keywords" : [
+		"transaction",
+		"lock",
+		"commit",
+		"rollback",
+		"object"
+	],
+	"engines": {
+		"node": "0.10.x"
+	},
+	"scripts": {
+		"start": "grunt",
+		"test": "grunt test",
+		"postinstall": ""
+	},
+	"dependencies": {
+		"q": "~1.1.2",
+		"deepcopy": "~0.4.0",
+		"async-lock": "~0.1.2",
+		"lodash": "~2.4.1"
+	},
+	"devDependencies": {
+		"should": "~4.5.0",
+		"grunt-cli": "~0.1.13",
+		"grunt-env": "~0.4.2",
+		"grunt-contrib-watch": "~0.6.1",
+		"grunt-contrib-jshint": "~0.10.0",
+		"grunt-contrib-clean": "~0.6.0",
+		"grunt-mocha-test": "~0.12.6",
+		"load-grunt-tasks": "~2.0.0",
+		"blanket" : "~1.1.6"
+	}
+}
